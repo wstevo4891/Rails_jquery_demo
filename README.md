@@ -1,8 +1,3 @@
-# Rails_jquery_demo
-A simple app on rails that shows off jQuery animations
-
-Rails_jquery_demo:
-
 A one-page app made with rails and bootstrap to show off jquery animations on a mock product's "about" page.
 You have a bar with five links, and clicking on a link will make the displayed divs fly off and others fly in.
 
