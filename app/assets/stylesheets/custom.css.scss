@@ -1,0 +1,212 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+.glyphicon {
+  font-size: 32px;
+}
+
+#main {
+  height: 35em;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #4d4d4d;
+  color: #fff;
+  margin-top: 1em;
+  a {
+    color: white;
+  }
+}
+
+/* About Page */
+
+.content-menu {
+  height: 4em;
+  font-size: 1.9em;
+  ul {
+    margin-top: 1.2em;
+    padding: 0;
+    li {
+      list-style-type: none;
+      display: inline-block;
+      a {
+        margin: 0.5em;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.inactive {
+  a {
+    color: #777;
+  }
+  a:hover {
+    color: white;
+  }
+}
+
+.current {
+  a {
+    color: white;
+  }
+}
+
+/* About: Screen */
+
+.image-panel {
+  position: relative;
+  left: -100em;
+}
+
+.red-panel {
+  z-index: 5;
+  background-color: #CC0000;
+  border: solid 1px black;
+  color: white;
+  height: 20em;
+  font-size: 1.2em;
+  border-radius: 5%;
+  position: relative;
+  top: 100em;
+  p {
+    margin-top: 0.5em;
+  }
+}
+
+.black-panel {
+  height: 6em;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  font-size: 1.2em;
+  position: relative;
+  right: -100em;
+  margin-top: -5em;
+  p {
+    float: left;
+    width: 25em;
+  }
+}
+
+/* About: Features */
+
+.info-panel {
+  height: 20em;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  font-size: 1.2em;
+  position: relative;
+  left: -100em;
+  bottom: 20em;
+}
+
+.image2-panel {
+  position: relative;
+  right: -100em;
+  bottom: 20em;
+}
+
+/* About: Internet */
+
+.back-info {
+  height: 20em;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  font-size: 1.2em;
+  position: relative;
+  top: -140em;
+  p {
+    width: 15em;
+    float: right;
+    margin: 1em;
+  }
+}
+
+.internet-img {
+  z-index: 5;
+  position: relative;
+  right: -102em;
+  bottom: 68.5em;
+}
+
+/* About: Durability */
+
+.durability-back {
+  height: 20em;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  font-size: 1.2em;
+  position: relative;
+  bottom: -26em;
+}
+
+.durability-img {
+  z-index: 5;
+  position: relative;
+  top: -209.5em;
+  left: 2em;
+}
+
+.durability-red {
+  z-index: 5;
+  border: solid 1px black;
+  background-color: #CC0000;
+  color: white;
+  height: 16em;
+  font-size: 1.2em;
+  border-radius: 5%;
+  position: relative;
+  right: -100em;
+  bottom: 92em;
+  p {
+    margin-top: 0.5em;
+  }
+}
+
+.price-back {
+  height: 20em;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  font-size: 1.2em;
+  position: relative;
+  right: -100em;
+  bottom: 110em;  
+}
+
+.price-info {
+  z-index: 5;
+  border: solid 1px white;
+  color: white;
+  height: 16em;
+  font-size: 1.2em;
+  border-radius: 5%;
+  position: relative;
+  top: -228em;
+  left: 2em;
+  p {
+    margin-top: 0.5em;
+  }  
+}
+
+.price-img {
+  z-index: 5;
+  position: relative;
+  bottom: 52.5em;
+  right: 1em;
+}
